@@ -4,10 +4,210 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="assets/first.css">
     <title>Focal x</title>
 </head>
 <body>
-    <script src="assets/script.js"></script>
+    <!-- nav section -->
+    <div class="container">
+    <nav class="nav">
+        <div class="logo">
+            <img src="assets/Images/logo.svg" alt="logo">
+        </div>
+        <div class="links">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li class="arrow"><a href="#">Jobs</a></li>
+                <li class="arrow"><a href="#">Freelance</a></li>
+                <li class="arrow"><a href="#">Blog</a></li>
+                <li class="arrow"><a href="#">Internship</a></li>
+                <li class="arrow"><a href="#">Ads</a></li>
+                <li><a href="#">Hire Us</a></li>
+            </ul>
+        </div>
+        <div class="login">
+            <button class="Login-btn"><a href="sign-in.html" target="_blank">Login</a></button>
+            <button class="Register-btn"><a href="sign-up.html" target="_blank">Register</a></button>
+        </div>
+        <div class="languages">
+            <p>AR</p> <div class="vl"></div> <p>EN</p>
+        </div>
+    </nav>
+<!-- end nav section -->
+<!-- job section -->
+<div class="job">
+    <h1>Find Job</h1>
+    <p>
+        The largest and most active companies... <br>Find an opportunity to work there.
+    </p>
+    <button class="job-btn">Create Account</button>
+    <div class="job-input">
+        <input id="searchInput"  type="text" placeholder="Search to view more">
+        <div class="icon">
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <i class="fa-solid fa-sliders fa-lg"></i>
+    </div>
+    
+    </div>
+    <ul class="job-type">
+        <li><a href="">All Posts</a></li>
+        <li><a href="">Graphic Designer </a></li>
+        <li><a href="">UI&UX</a></li>
+        <li><a href="">Web Developer</a></li>
+    </ul>        
+    <div id="cardContainer" class="cards">
+        <div class="card">
+            <div class="card-header">
+                <div class="card-photo"><img src="assets/Images/mic.jpg" alt="mic"></div>
+             <div class="header-text">
+                <p>Hope Recording Studio</p>
+                <p class="viewrs">15K Viewers</p>
+             </div>
+            
+            </div>
+            <div class="card-body">
+                <div class="paragraphs">
+                    <h2>Translator</h2>
+
+                    <p><span>job roles : </span>English Translator</p>
+                    <p><span>job location : </span>Damascus</p>
+                    <p><span>job types : </span>Part time</p>
+                    <p><span>Experience : </span>1 years</p>
+                    <p><span>Salary : </span>200000 SP - 600000 SP</p>
+                </div>
+                <span class="status"><p><i class="fa-sharp fa-solid fa-circle" style="color: #00f000;"></i>active</p> <p>02:30 pm 2022-08-23</p></span>
+                <button class="card-btn">
+                    More Information
+                </button>
+            </div>
+            
+
+<!-- start gpt card -->
+
+<!-- <div class="card">
+    <div class="header-section">
+      <div class="photo">
+        <img src="assets/Images/mic.jpg" alt="mic">
+      </div>
+      <div class="paragraphs">
+        <p>Paragraph 1</p>
+        <p>Paragraph 2</p>
+      </div>
+    </div>
+    <div class="body-section">
+      <div class="paragraphs">
+        <p>Paragraph 1</p>
+        <p>Paragraph 2</p>
+        <p>Paragraph 3</p>
+        <p>Paragraph 4</p>
+        <p>Paragraph 5</p>
+        <p>Paragraph 6</p>
+      </div>
+    </div>
+  </div>
+   -->
+<!-- end gpt card -->
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    <div class="card">
+        <div class="card-header">
+            <div class="card-photo"><img src="assets/Images/instagram.jpg" alt="mic"></div>
+         <div class="header-text">
+            <p>Instagram</p>
+            <p class="viewrs">15K Viewers</p>
+         </div>
+        
+        </div>
+        <div class="card-body">
+            <div class="paragraphs">
+                <h2>Graphic Designer</h2>
+
+                <p><span>job roles : </span>Social Media</p>
+                <p><span>job location : </span>remotely</p>
+                <p><span>job types : </span>full time</p>
+                <p><span>Experience : </span>4 years</p>
+                <p><span>Salary : </span>500000 SP - 3000000 SP</p>
+            </div>
+            <span class="status"><p><i class="fa-sharp fa-solid fa-circle" style="color: #00f000;"></i>active</p> <p>02:30 pm 2022-08-23</p></span>
+            <button class="card-btn">
+                More Information
+            </button>
+        </div>
+</div>
+
+<div class="card">
+    <div class="card-header">
+        <div class="card-photo"><img src="assets/Images/youtube.jpg" alt="mic"></div>
+     <div class="header-text">
+        <p>YouTube</p>
+        <p class="viewrs">15K Viewers</p>
+     </div>
+    
+    </div>
+    <div class="card-body">
+        <div class="paragraphs">
+            <h2>Content Writer</h2>
+
+            <p><span>job roles : </span>YouTube Script Writer</p>
+            <p><span>job location : </span>remotely</p>
+            <p><span>job types : </span>Part time</p>
+            <p><span>Experience : </span>3 years</p>
+            <p><span>Salary : </span>1000000 SP - 1500000 SP</p>
+        </div>
+        <span class="status"><p><i class="fa-sharp fa-solid fa-circle" style="color: #00f000;"></i>active</p> <p>02:30 pm 2022-08-23</p></span>
+        <button class="card-btn">
+            More Information
+        </button>
+    </div>
+</div>
+</div>
+<!-- end job section -->
+</div>
+<!-- start footer  -->
+
+<footer>
+    <div class="h-section">
+        
+            <h1>Job</h1>
+            <h1>Freelance</h1>
+            <h1>Blog</h1>
+            <h1>Internship</h1>
+            <h1>Keep in Touch
+            </h1>
+    </div>
+        
+        <div class="p-section">
+            <p>Search Employee
+            </p>
+            <p>Search Freelancer
+            </p>
+            <p>Search</p>
+            <p>Search Blogs
+            </p>
+            <p>Registeration</p>
+            <p><a href="mailto:focal-x@focalapp.com">focal-x@focalapp.com</a></p>
+        </div>
+        <div class="copyright"><p>© 2021 - 2022 focal X a gency All Right Reserved</p> <span></span></div>
+
+       
+</footer>
+
+<!-- end footer -->
+    <script src="assets/first.js"></script>
+    <script src="https://kit.fontawesome.com/c8a0665b6c.js" crossorigin="anonymous"></script>
 </body>
 </html>
+<!-- 
+    
+ -->

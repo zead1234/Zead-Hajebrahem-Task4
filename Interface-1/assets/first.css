@@ -1,0 +1,293 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    height: 100%;
+}
+/* nav section */
+.nav{
+display: flex;
+justify-content: space-between;
+align-items: center;
+background-color: white;
+}
+.nav .logo {
+    margin-left: 15px;
+}
+.nav .links{
+    margin: 0 auto;
+
+}
+
+.nav .links ul{
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    
+    
+
+}
+.nav .links ul li {
+    margin: 0 16px;
+}
+.nav .links .arrow {
+    position: relative;
+}
+.nav .links .arrow::after{
+    content: "";
+    position: absolute;
+    margin: 0 2px;
+    top: 5px;
+    right: -17px;
+    width: 8px;
+    height: 8px;
+    border-right: 1px solid #8a8a8a;
+    border-bottom: 1px solid #8a8a8a;
+    cursor: pointer;
+    transform: rotate(45deg);
+
+}
+.nav .links ul li a{
+    text-decoration: none;
+    color: grey;
+}
+.nav .links ul li a:hover{
+    
+    color: black;
+}
+.nav .login button{
+    border: none;
+    margin:0 20px;
+    font-weight: 400;
+    background-color: transparent;
+}
+.nav .login button a{
+    text-decoration: none;
+    color: black;
+}
+.nav .login .Login-btn{
+    font-weight: 900;
+}
+.nav .languages{
+    display: flex;
+}
+.nav .languages p{
+    margin: 5px;
+    cursor: pointer;
+
+}
+.nav .languages p:hover{
+    color: gold;
+}
+.nav .languages .vl {
+    height: 18px;
+    margin: 5px;
+    border: 1px solid gold ;
+}
+/* job */
+.job{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-image: url(Images/background.jpg);
+    background-size: cover;
+}
+.job *{
+    margin: 3px 0;
+}
+.job .job-btn{
+    background-color: black;
+    color: white;
+    width: 23%;
+    border-radius: 3px;
+    height: 31px;
+    margin-top: 20px;
+}
+.job .job-input{
+    margin-top: 30px;
+    width: 55%;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+
+}
+.job .job-input input{
+    border: none;
+    font-size: 20px;
+    background-color: transparent;
+}
+.job .job-input input:focus{
+    outline: none;
+}
+.job .icon{
+    color: grey;
+}
+.job .icon i:hover{
+    color: orangered;
+}
+.job .job-type{
+    list-style: none;
+    width: 48%;
+    display: flex;
+    justify-content: space-between;
+}
+.job .job-type li a{
+    text-decoration: none;
+    color: grey;
+    position: relative;
+}
+.job .job-type li a:hover{
+    color: black;
+    
+}
+.job .job-type li a::after{
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 1px;
+    background-color: orangered;
+    top: 100%;
+    left: 0;
+    transition: 0.5s;
+}
+.job .job-type li a:hover::after{
+    width: 50%;
+}
+.job .cards{
+    margin: 20px;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.job .cards .card{
+    height: 400px;
+    width: 30%;
+    border: 1px solid grey;
+    box-shadow: 0px 4px 20px rgba(40, 40, 40, 0.15);
+    border-radius: 10px;
+    background-color: white;
+}
+.job .cards .card .card-header{
+    display: flex;
+    align-items: center;
+    font-size: 10px;
+    height: 20%;
+    /* margin-top: 20px; */
+    
+}
+.job .cards .card .card-header .card-photo img{
+    margin-left: 10px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    
+}
+.job .cards .card .card-header .header-text{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 10px;
+    margin: 0 10px;
+
+}
+.job .cards .card .card-header .header-text .viewrs{
+    color: grey;
+    font-size: 8px;
+}
+.job .cards .card .card-body{
+    width: 100%;
+    height: 70%;
+}
+.job .cards .card .card-body  .paragraphs P{
+height: 30px;
+margin-left: 10px;
+} 
+.job .cards .card .card-body  .paragraphs p span{
+    color: #8a8a8a;
+}
+
+.job .cards .card .card-body  .paragraphs{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 10px;
+
+
+}
+.jobs .cards .card .card-body .status{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.status{
+    display: flex;
+    justify-content: space-around;
+    font-size: 9px;
+}
+.status p:first-child{
+    color: #00f000;
+}
+.status p:first-child i{
+    padding-right: 5px;
+}
+.card .card-btn{
+    background-color: black;
+    color: white;
+    width: 90%;
+    border-radius: 3px;
+    height: 31px;
+    margin-top: 20px;
+    
+    display: block;
+    margin: auto;
+}
+
+/* footer */
+
+footer{
+    height: 150px;
+    width: 100%;
+    background-color: rgb(41, 40, 40);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+footer .h-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+}
+footer .p-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+}
+footer .p-section a {
+    color: white;
+    text-decoration: none;
+}
+footer .copyright{
+    width: 90%;
+    display: flex;
+justify-content: center;
+align-items: center;
+}
+
+footer span {
+    width: 50%;
+    border-top: 1px solid white;
+    margin-left: 35px;
+}
