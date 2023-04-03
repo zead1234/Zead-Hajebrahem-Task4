@@ -9,25 +9,33 @@
 </head>
 <body>
     <!-- nav section -->
-    <div class="container">
-    <nav class="nav">
+    <div id="header" class="container">
+    <nav id="" class="nav">
         <div class="logo">
             <img src="assets/Images/logo.svg" alt="logo">
         </div>
         <div class="links">
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li class="arrow"><a href="#">Jobs</a></li>
+            <ul id="list" class="list">
+                <li><a href="#header">Home</a></li>
+                <li class="arrow ss"><a href="#jobs">Jobs</a>  <ul class="sub-menu">
+                    <li><a href="#">Search Job</a> </li>
+                    <li> <a href="../Interface-2/second.html" target="_blank">Search Employee</a> </li>
+                    <li><a href="../Interface-3/third.html" target="_blank">Companies</a></li>
+                </ul>
+                </li>
                 <li class="arrow"><a href="#">Freelance</a></li>
                 <li class="arrow"><a href="#">Blog</a></li>
                 <li class="arrow"><a href="#">Internship</a></li>
                 <li class="arrow"><a href="#">Ads</a></li>
-                <li><a href="#">Hire Us</a></li>
+                <li><a href="#contact">Hire Us</a></li>
             </ul>
+           
         </div>
+        <i onclick="f1()" id="bar" class="fa-solid fa-bars"></i>
+
         <div class="login">
             <button class="Login-btn"><a href="sign-in.html" target="_blank">Login</a></button>
-            <button class="Register-btn"><a href="sign-up.html" target="_blank">Register</a></button>
+            <button class="Register-btn"><a href="sign-in.html" target="_blank">Register</a></button>
         </div>
         <div class="languages">
             <p>AR</p> <div class="vl"></div> <p>EN</p>
@@ -35,7 +43,7 @@
     </nav>
 <!-- end nav section -->
 <!-- job section -->
-<div class="job">
+<div id="jobs" class="job">
     <h1>Find Job</h1>
     <p>
         The largest and most active companies... <br>Find an opportunity to work there.
@@ -81,33 +89,6 @@
                 </button>
             </div>
             
-
-<!-- start gpt card -->
-
-<!-- <div class="card">
-    <div class="header-section">
-      <div class="photo">
-        <img src="assets/Images/mic.jpg" alt="mic">
-      </div>
-      <div class="paragraphs">
-        <p>Paragraph 1</p>
-        <p>Paragraph 2</p>
-      </div>
-    </div>
-    <div class="body-section">
-      <div class="paragraphs">
-        <p>Paragraph 1</p>
-        <p>Paragraph 2</p>
-        <p>Paragraph 3</p>
-        <p>Paragraph 4</p>
-        <p>Paragraph 5</p>
-        <p>Paragraph 6</p>
-      </div>
-    </div>
-  </div>
-   -->
-<!-- end gpt card -->
-
 
 
 
@@ -176,28 +157,38 @@
 </div>
 <!-- start footer  -->
 
-<footer>
-    <div class="h-section">
+<footer id="contact">
+    <div class="footer-text">
+        <h1>Job</h1>
+        <h1>Freelance</h1>
+        <h1>Blog</h1>
+        <h1>Internship</h1>
+        <h2>Keep in Touch
+        </h2>
+    
+        <p>Search Employee
+        </p>
+        <p>Search Freelancer
+        </p>
+        <p>Search Blogs
+        </p>
+        <p>Registeration</p>
+        <p><a href="mailto:focal-x@focalapp.com">focal-x@focalapp.com</a></p>
+        <p>Search Job
+    
+        </p>
+        <p>Search Services
+    
+        </p>
+        <p>SAdd Blog
+        </p>
+        <p>Search
+        </p>
         
-            <h1>Job</h1>
-            <h1>Freelance</h1>
-            <h1>Blog</h1>
-            <h1>Internship</h1>
-            <h1>Keep in Touch
-            </h1>
-    </div>
-        
-        <div class="p-section">
-            <p>Search Employee
-            </p>
-            <p>Search Freelancer
-            </p>
-            <p>Search</p>
-            <p>Search Blogs
-            </p>
-            <p>Registeration</p>
-            <p><a href="mailto:focal-x@focalapp.com">focal-x@focalapp.com</a></p>
-        </div>
+        <p><a href="tel:+963 994 975 318">+963 994 975 318</a></p>
+       
+    
+     </div>
         <div class="copyright"><p>© 2021 - 2022 focal X a gency All Right Reserved</p> <span></span></div>
 
        
