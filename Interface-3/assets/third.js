@@ -56,7 +56,7 @@ carousels.forEach(carousel => {
 
 const list =document.getElementById('list');
 const bars =document.getElementById('bar');
-function f1(){
+function show(){
 
     list.classList.toggle("show");
     list.classList.toggle("list");
